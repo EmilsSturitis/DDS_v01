@@ -1,0 +1,85 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 03c448df-a925-4663-be76-f360f5f28e0d)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 236.22 101.6) (size 43.18 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 71b53d83-6eec-4518-9406-8f3a048058b6)
+    (property "Sheetname" "AFE" (at 236.22 100.8884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AFE.kicad_sch" (at 236.22 144.0946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "dds_V1"
+        (path "/03c448df-a925-4663-be76-f360f5f28e0d" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 162.56 57.15) (size 59.69 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d71e091f-4aa4-4e6e-a6aa-e6bc97d043ef)
+    (property "Sheetname" "ISO&DDS&ADC" (at 162.56 56.4384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "iso.kicad_sch" (at 162.56 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "dds_V1"
+        (path "/03c448df-a925-4663-be76-f360f5f28e0d" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 64.77 118.11) (size 62.23 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e048afca-1cc3-43db-9408-87bd77155162)
+    (property "Sheetname" "PSU" (at 64.77 117.3984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PSU.kicad_sch" (at 64.77 159.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Field2" "" (at 64.77 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "dds_V1"
+        (path "/03c448df-a925-4663-be76-f360f5f28e0d" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 34.29 39.37) (size 64.77 36.83) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ed0a5211-2d94-40d9-9d3d-fde874d14938)
+    (property "Sheetname" "MCU" (at 34.29 38.6584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 34.29 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "dds_V1"
+        (path "/03c448df-a925-4663-be76-f360f5f28e0d" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
